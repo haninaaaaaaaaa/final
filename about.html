@@ -26,7 +26,7 @@
   </h1>
 
     <div class="center">
-    <img src="mockup 1.jpg" class="cen-img2" style="padding-top:80px;">
+    <img src="jjgraphicsmockup-white.jpg" class="cen-img2" style="padding-top:80px;">
 <h2>WHAT WE DO?</h2>
 
 <p><b>JJ GRAPHICS</b> provides creative campaigns, marketing designs and website assets with effective strategies.<br>
@@ -41,6 +41,8 @@
   principle, <br>branding practices and procedures as well as<br> creating effective design strategies tailored to client needs."
 <br><b>- J. Jacinto, Graphic Designer </b>
 </p>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><IMG SRC="tiny-arrow-top-double-512.png" STYLE="WIDTH:30PX;"></button>
 </div>
 
 
@@ -55,6 +57,24 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 </script>
 
