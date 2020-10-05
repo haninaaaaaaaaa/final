@@ -165,3 +165,10 @@ body{
       #myBtn:hover {
         background-color: gray; /* Add a dark-grey background on hover */
       }
+
+      hr.solid {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-top: 1px solid #bbb;
+        opacity: 20%;
+      }
