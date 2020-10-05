@@ -3,10 +3,29 @@
 <head>
   <link rel="stylesheet" href="aboutstyles.css"-->
 </head>
-<body class="center">
+<body>
+
+  <div id="mySidebar" class="sidebar" style="font-family: montserrat;">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="about.html">About</a>
+    <a  style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Services</a>
+    <a  style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Gallery</a>
+    <a  style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Reviews</a>
+    <a  style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#">Contact</a>
+    
+</div>
+  <div id="main">
+    
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+  </div>    
+
+
+  
+<div class="center">
 <img src="mockup 1.jpg" style="width: 100%">
 <h1>WHAT JJ GRAPHICS DO?</h1>
 <p>JJ graphics provides creative branding services, digital campaigns marketing designs.</p>
+
 <button class="button"><span>Services </span></button>
 
 <h1>THE AUTHOR</h1>
@@ -14,5 +33,22 @@
   principle, <br>branding practices and procedures as well as<br> creating effective design strategies tailored to client needs."
 <b>- J. Jacinto, Graphic Designer </b>
 </p>
+</div>
+
+
+<script>function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+
+
+</script>
+
     </body>
     </html>
