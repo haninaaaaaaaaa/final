@@ -72,6 +72,7 @@
     .sidebar a {font-size: 18px;}
     
   }
+  
 /*-------button--*/
 .button {
 border-radius: 50px;
@@ -112,7 +113,6 @@ right: 0;
 
 .center {
   padding-left: 50px;
-  padding-right: 50px;
   display: block;
   margin: auto;
   font-size: 20px;
@@ -158,13 +158,13 @@ body{
         background-color: black; /* Set a background color */
          /* Text color */
         cursor: pointer; /* Add a mouse pointer on hover */
-        padding: 25px; /* Some padding */
-        border-radius: 5px; /* Rounded corners */ /* Increase font size */
+        padding: 20px; /* Some padding */
+        border-radius: 5px; /* Rounded corners */ / * Increase font size */
         
       }
       
       #myBtn:hover {
-        background-color: gray; /* Add a dark-grey background on hover */
+        background-color: black; /* Add a dark-grey background on hover */
       }
 
  hr.solid {
@@ -180,9 +180,6 @@ opacity: 20%;
   position: fixed;
   top: 50%;
   left: 95%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .icon-bar a {
